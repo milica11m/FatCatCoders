@@ -1,0 +1,95 @@
+body {
+	background-color: beige;
+}
+* {
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	text-align: center;
+	padding: 15px;
+}
+.intro {
+	text-align: center;
+}
+.image {
+	display: flex;
+	justify-content: center;
+	height: 537px;
+	width: 537px;
+	position: absolute;
+	z-index: -1;
+	padding: 20px 30px;
+}
+img {
+	height: 100%;
+}
+.sve {
+	display: flex;
+}
+.bigbox {
+	padding: 20px 30px; 
+}
+.box {
+	display: flex;
+}
+.pic {
+	background-color: #f9c5d3;
+	height: 175px;
+	width: 175px;
+	border: 2px solid #61756d;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.pic p {
+	margin: 0;
+	padding: 10px;
+}
+button {
+	background-color: #b3d8ca;
+	border: 1px solid #61756d;
+	border-radius: 7%;
+	cursor: pointer;
+	width: 100px;
+	padding: 3px;
+	position: absolute;
+}
+.more-button {
+	bottom: 45px;
+}
+.super {
+	bottom: 15px;
+}
+span {
+	font-size: smaller;
+}
+.svise {
+	padding: 20px;
+}
+.saznajvise1, .saznajvise2 {
+	display: none;
+	border: 2px solid #61756d;
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+.kontakt {
+
+}
+.fa {
+	color: #61756d;
+}
+.fa-phone-square, .fa-envelope {
+	font-size: 18px;
+	padding: 5px;
+}
+.fa-linkedin-square, .fa-facebook-square {
+	font-size: 35px;
+	padding: 0 40px;
+}
+a:link {
+	color: initial;
+}
+a:visited {
+	color: initial;
+}
